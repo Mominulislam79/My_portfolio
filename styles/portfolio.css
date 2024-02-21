@@ -22,6 +22,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 230px 0px 226px;
 }
 
 nav>ul {
@@ -38,7 +39,6 @@ nav li {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
-    font-family: "Open Sans";
 }
 
 .text-primary-color {
@@ -51,4 +51,52 @@ nav a {
     color: #474747;
     font-size: 20px;
     font-weight: 400;
+}
+
+/* header related style */
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    display: flex;
+    padding: 30px 30px 0px 130px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-size: 45px;
+    margin-bottom: 0px;
+    /* font-weight: 600;  */
+    /* width: 177px;
+    height: 61px;
+    top: 297px;
+    left: 230px; */
+}
+
+.banner .profile-pic {
+    width: 500px;
+}
+
+.banner-name {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.banner-description {
+    margin-top: 20px;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.banner-content{
+    max-width: 585px;
 }
